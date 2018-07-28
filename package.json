@@ -1,0 +1,24 @@
+{
+  "name": "minimalfm-backend",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "velimattiluoto@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "koa": "^2.5.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "md5": "^2.2.1",
+    "superagent": "^3.8.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3",
+    "standard": "^11.0.1"
+  }
+}
