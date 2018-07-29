@@ -14,6 +14,6 @@ app.use(bodyParser())
 app.use(router.routes())
 app.use(router.allowedMethods())
 
-const { HTTP_PORT } = process.env
+const { PORT } = process.env
 
-app.listen(HTTP_PORT, () => console.log(`server listening on port ${HTTP_PORT}`))
+app.listen(PORT, () => console.log(`server listening on port ${PORT}`))
